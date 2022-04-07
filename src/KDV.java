@@ -15,8 +15,8 @@ public class KDV {
         tutar = (fiyat * kdv) + fiyat;
 
         System.out.println("Fiyat: " + fiyat);
-        System.out.println("KDV Oranı: " + kdv);
-        System.out.println("KDV Tutarı: " + vergi);
+        System.out.println("KDV Orani: " + kdv);
+        System.out.println("KDV Tutari: " + vergi);
         System.out.print("Vergiler Dahil Tutar: " + tutar);
 
     }
