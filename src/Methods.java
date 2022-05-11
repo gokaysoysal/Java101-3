@@ -9,11 +9,15 @@ public class Methods {
         return result;
     }
 
+    static void error() {
+        System.out.println("Error");
+    }
+
     public static void main(String[] args) {
         System.out.println(power(2, 3));
         System.out.println(power(4, 2));
         System.out.println(power(3, 3));
-
+        error();
 
     }
 }
