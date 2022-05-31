@@ -3,11 +3,11 @@ class Car {
     String model;
     String color;
     int speed;
-    int speedLimit;
+    int speedLimit = 180;
 
-    void increaseSpeed(int increase) {
-        if ((speed + increase) < speedLimit) {
-            speed += increase;
+    void increaseSpeed(int increment) {
+        if ((speed + increment) < speedLimit) {
+            speed += increment;
         }
     }
 
@@ -18,7 +18,7 @@ class Car {
     }
 
     void printSpeed() {
-        System.out.println("Hızınız : " + speed);
+        System.out.println(model + " Hiziniz : " + speed);
     }
 
 }
